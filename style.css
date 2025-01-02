@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: #f0edf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show {
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 20px 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.header {
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+}
+#todolist {
+    background-color: #b97fce;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    height: 60%;
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 6rem
+}
+button{
+    margin: 3px;
+    border-radius: 10px;
+    width: 8rem;
+    height: 3rem;
+    background-color: #edca79;;
+    padding: 5px;
+    font-family: cursive;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d4a85c;
+}
+input[type="text"] {
+    margin: 3px;
+    border-radius: 10px;
+    width: 16rem;
+    height: 3rem;
+    background-color: #b4a580;;
+    padding: 5px;
+    font-family: cursive;
+}
+.add-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1px 10%;
+}
+#todo{
+    font-family: cursive;
+    font-size: medium;
+}
+#todolist div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 10px; /* Consistent spacing between items */
+}
+#todolist input[type="checkbox"] {
+    width: 20px; /* Smaller checkbox size */
+    height: 20px;
+}
+#todolist h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 20px; /* Matches checkbox size */
+    font-family: cursive;
+    max-width: 300px; /* Limit text width for wrapping */
+    word-wrap: break-word; /* Break long text to the next line */
+}

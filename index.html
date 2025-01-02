@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do maintaining app</title>
+</head>
+<body>
+<div>
+    <div class="show">
+        <div class="header">
+            <h2 >To Do List</h2>
+        </div>
+        <div id="todolist"> 
+        </div>
+    </div> 
+    
+    <div class="add-container">
+        <input id="todo" type="text" placeholder="Write your todo here"></input>
+        <button onclick=addTodo()>Add Todo</button>
+        <button onclick="deleteFirstTodo()">Delete First Todo</button>
+        <button onclick="deleteLastTodo()">Delete Last Todo</button>
+    </div>
+    <footer style="text-align: center; margin-top: 20px; color: #888;">&copy Anings Todo App</footer>
+</div>
+       
+ 
+</body>
+<script src="script.js"> </script>
+</html>
