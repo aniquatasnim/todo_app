@@ -91,7 +91,7 @@ Contributions are welcome! Please follow these steps:
 
 For any questions or feedback, feel free to reach out:
 
-- GitHub: [your-username](https://github.com/aniquatasnim)
+- GitHub: [aniquatasnim](https://github.com/aniquatasnim)
 
 
 
